@@ -1,4 +1,4 @@
 FROM node:14
-WORKDIR /3b_docker
+WORKDIR /user/src/app
 COPY . .
 CMD ["node", "script.js"]
